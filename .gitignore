@@ -1,0 +1,84 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Build files
+/build/
+/out/
+/bin/
+/lib/
+/obj/
+/CMakeFiles/
+/CMakeCache.txt
+*.cmake
+Makefile
+*.o
+*.so
+*.dll
+*.dylib
+*.exe
+*.a
+*.lib
+
+# IDE specific
+.idea/
+.vscode/
+*.sln
+*.vcxproj*
+*.user
+*.ncb
+*.suo
+*.log
+*.swp
+
+# Temporary files
+*.tmp
+*.log
+*.pid
+*.lock
+
+# Python (if scripts use Python)
+__pycache__/
+*.py[cod]
+
+# Generated documentation
+/docs/generated/
+
+# Generated configuration
+/configs/*.json
+/configs/*.yaml
+
+# Third-party dependencies
+/third_party/libs/
+/third_party/tools/
+
+# Plugin build artifacts
+/plugins/layers/*.o
+/plugins/optimizers/*.o
+/plugins/losses/*.o
+
+# Test outputs
+/tests/output/
+*.testlog
+
+# Debugging tools
+*.dSYM/
+*.profraw
+
+# Profiling tools
+*.gcda
+*.gcno
+
+# Custom binaries or experimental features
+/sandbox/*.o
+/sandbox/*.out
+
+# Ignore anything user-specific
+*.local
+*.env
+*.bak
+*.old
+*.orig
+
+# Specific exclusions (add more if needed)
+!README.md
